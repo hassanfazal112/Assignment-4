@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    font-family: "Noto Sans Sora Sompeng", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+  
+}
+.header-container {
+  display: flex;
+  justify-content: space-around;
+}
+.header-navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* text-align: center; */
+}
+.header-navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 55px;
+  margin-right: 50px;
+}
+.header-navbar ul a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.header-img{
+  margin-top: 20px;
+}
+.header-button {
+  /* padding: 25px; */
+  width: 25vh;
+  background-color: white;
+  height: 60px;
+  /* border: 2px solid black; */
+  border-radius: 18px;
+  /* margin-top: 20PX; */
+}
+.container {
+  /* border: 2px solid red; */
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+.section-container {
+  margin: auto;
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+
+  width: 80%;
+}
+.heaing-container {
+  /* text-align: left; */
+  /* border: 2px solid green; */
+  /* margin-left: 60px; */
+}
+.navigating-container {
+  /* border: 2px solid orangered; */
+  height: 32vh;
+  width: 80vh;
+  font-size: 50px;
+    font-weight: 100;
+}
+.para-container {
+  /* border: 2px solid green; */
+  width: 70vh;
+  height: 30vh;
+  /* margin-top: 20px; */
+  line-height: 35px;
+  font-size: 18px;
+}
+.button{
+    /* border: 2px solid red; */
+    margin-top: 30px;
+
+}
+.button button{
+    background-color: black;
+    color: white;
+    width: 33vh;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    /* margin-left: 20px; */
+}
+footer{
+  display: flex;
+  justify-content: center
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* border: 2px solid red; */
+  width: 160vh;
+  height: 90px;
+  /* margin-left: 150px; */
+}
+/* .footer:hover{
+  transition: 1s;
+  background-color: chartreuse;
+} */
+.amazon-footer img{
+  filter: grayscale(1);
+}
+.amazon-footer img:hover{
+  filter: grayscale(0);
+}
+.hubspot-footer img{
+  filter: grayscale(1);
+}
+.hubspot-footer img:hover{
+  filter: grayscale(0);
+}
+.netflix-footer img{
+  filter: grayscale(1);
+}
+.netflix-footer img:hover{
+  filter: grayscale(0);
+}
+.zoom-footer img{
+  filter: grayscale(1);
+}
+.zoom-footer img:hover{
+  filter: grayscale(0);
+}
+
+
